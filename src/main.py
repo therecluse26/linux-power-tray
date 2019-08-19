@@ -3,9 +3,9 @@ from modules.conf import Conf
 from modules.system_info import SystemInfo
 
 def main():
-    config = Conf()
+    # config = Conf()
     sys_info = SystemInfo()
-    print(sys_info.cpu_cores.enabled_cores)
+    print(sys_info.cpu.enabled_cores)
     return
 
 main()
